@@ -72,37 +72,28 @@ Tailwind CSS
 
 Axios
 
-📂 Project Structure (Simplified)
-server/
- ├── controllers/
- ├── services/
- ├── routes/
- ├── models/
- ├── middlewares/
- ├── utils/
- └── app.ts
-
-client/
- ├── pages/
- ├── components/
- ├── services/
- └── utils/
-
 
 Business logic is kept in services, controllers remain thin.
 
 🚀 How to Run Locally
+
 Backend
+
 cd server
+
 npm install
+
 npm run dev
 
 
-Create a .env file based on .env.example.
+Create a .env file 
 
 Frontend
+
 cd client
+
 npm install
+
 npm run dev
 
 🔐 Environment Variables
@@ -110,10 +101,15 @@ npm run dev
 Create .env in the server directory:
 
 PORT=8080
+
 MONGO_URI=
+
 JWT_SECRET=
+
 CLOUDINARY_CLOUD_NAME=
+
 CLOUDINARY_API_KEY=
+
 CLOUDINARY_API_SECRET=
 
 🧪 What This Project Demonstrates
